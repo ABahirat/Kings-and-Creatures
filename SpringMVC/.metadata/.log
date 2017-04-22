@@ -1194,3 +1194,9 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 34
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-21 20:05:20.097
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-21 20:13:22.924
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-21 20:13:22.929
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

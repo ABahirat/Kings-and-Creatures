@@ -11,6 +11,6 @@
 
 	<p>Welcome, ${firstName}</p>
 	<c:out value="${firstName}" />
-	<button onClick="doStuff(model)">click me!</button>
+	<button onClick="doStuff()">click me!</button>
 </body>
 </html>
