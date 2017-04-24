@@ -114,4 +114,8 @@ public class character {
     public void setNotes(String notes) {
         this.notes = notes;
     }
+
+    public String combat(character target){
+        return "hit";
+    }
 }
