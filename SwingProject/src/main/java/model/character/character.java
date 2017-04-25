@@ -13,7 +13,7 @@ public class character {
     int dex = 10;
     int intelligence = 10;
     //itemList items[];
-    ArrayList<Item> itemList;
+    public ArrayList<Item> itemList;
     //spellList spells[];
     int armor = 10;
     int mr = 10;
@@ -24,6 +24,7 @@ public class character {
     String notes = "";
 
     public character() {
+        ArrayList<Item> myList = new ArrayList<Item>();
     }
 
     public character(String name, String charClass){
@@ -123,15 +124,23 @@ public class character {
 
     public void Trade(Item item, Item item1, Character character){
         //Access item Array list of character, and self, swap items
+        removeItem(item, this.itemList);
+        storeItem(item1, this.itemList);
+
+        if(character != null) {
+            removeItem(item1, character.itemList);
+            storeItem(item, character.itemList);
+        }
+
 
     }
 
     public void removeItem(Item item, ArrayList<Item> itemList){
-        itemList.remove(item);
+        this.itemList.remove(item);
     }
 
     public void storeItem(Item item, ArrayList<Item> itemList){
-        itemList.add(item);
+        this.itemList.add(item);
     }
 
 
