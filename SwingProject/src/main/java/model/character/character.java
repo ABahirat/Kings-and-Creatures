@@ -8,7 +8,7 @@ import java.util.*;
 /**
  * Created by Peter on 4/24/2017.
  */
-public class character {
+public class character{
     String name;
     String charClass;
     int Str = 10;
