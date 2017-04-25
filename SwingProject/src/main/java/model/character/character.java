@@ -1,5 +1,8 @@
 package model.character;
 
+import java.io.*;
+import java.util.*;
+
 /**
  * Created by Peter on 4/24/2017.
  */
@@ -10,6 +13,7 @@ public class character {
     int dex = 10;
     int intelligence = 10;
     //itemList items[];
+    ArrayList<Item> itemList;
     //spellList spells[];
     int armor = 10;
     int mr = 10;
@@ -117,11 +121,18 @@ public class character {
 
     public void Attack(Character character){}
 
-    //public void Trade(Item item, Item item1, Character character){}
+    public void Trade(Item item, Item item1, Character character){
+        //Access item Array list of character, and self, swap items
 
-    //public void removeItem(Item item)
+    }
 
-    //public void storeItem(Item item)
+    public void removeItem(Item item, ArrayList<Item> itemList){
+        itemList.remove(item);
+    }
+
+    public void storeItem(Item item, ArrayList<Item> itemList){
+        itemList.add(item);
+    }
 
 
 
