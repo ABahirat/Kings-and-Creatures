@@ -122,7 +122,7 @@ public class character {
 
     public void Attack(Character character){}
 
-    public void Trade(Item item, Item item1, Character character){
+    public void Trade(Item item, Item item1, character character){
         //Access item Array list of character, and self, swap items
         removeItem(item, this.itemList);
         storeItem(item1, this.itemList);
