@@ -114,4 +114,17 @@ public class character {
     public void setNotes(String notes) {
         this.notes = notes;
     }
+
+    public void Attack(Character character){}
+
+    //public void Trade(Item item, Item item1, Character character){}
+
+    //public void removeItem(Item item)
+
+    //public void storeItem(Item item)
+
+
+
+
+
 }
