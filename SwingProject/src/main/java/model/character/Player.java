@@ -7,12 +7,12 @@ public class Player extends character {
 
     character Character;
     //Probably needs to take in something different
-    public character createCharacter(char attributes){
+    public character createCharacter(String name, String charClass){
 
         character new_Character = new character();
 
-        //new_Character.name = name;
-        //new_Character.charClass = class;
+        new_Character.name = name;
+        new_Character.charClass = charClass;
         //Empty array list of items is created upon instantiation of character
         return new_Character;
     }
