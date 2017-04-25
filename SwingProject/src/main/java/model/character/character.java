@@ -132,7 +132,6 @@ public class character {
             storeItem(item, character.itemList);
         }
 
-
     }
 
     public void removeItem(Item item, ArrayList<Item> itemList){
@@ -141,6 +140,12 @@ public class character {
 
     public void storeItem(Item item, ArrayList<Item> itemList){
         this.itemList.add(item);
+    }
+
+    public void displayItems(character character){
+        for(Item item : character.itemList){
+            System.out.println(item.Name); //Needs to be changed to print to text box
+        }
     }
 
 
