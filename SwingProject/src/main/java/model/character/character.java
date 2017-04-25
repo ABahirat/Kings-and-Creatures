@@ -19,8 +19,8 @@ public class character {
     int speed = 10;
     String notes = "";
 
-
-
+    public character() {
+    }
 
     public character(String name, String charClass){
         this.name = name;
