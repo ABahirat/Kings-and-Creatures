@@ -137,11 +137,11 @@ public class character{
     }
 
     public void removeItem(Item item, ArrayList<Item> itemList){
-        this.itemList.remove(item);
+        itemList.remove(item);
     }
 
     public void storeItem(Item item, ArrayList<Item> itemList){
-        this.itemList.add(item);
+        itemList.add(item);
     }
 
     public void displayItems(character character){
