@@ -122,17 +122,13 @@ public class character extends Player{
         this.notes = notes;
     }
 
-<<<<<<< HEAD
-    public String combat(character target){
+    public void Attack(character target){
         int attack_roll = (int) Math.ceil(Math.random()*20)+getStr();
         int ac = target.getArmor()+target.getDex();
         if (attack_roll >= ac){
-
+            System.out.println("hit");
         }
-        return "hit";
     }
-=======
-    public void Attack(Character character){}
 
     public void Trade(Item item, Item item1, character character){
         //Access item Array list of character, and self, swap items
@@ -160,9 +156,4 @@ public class character extends Player{
         }
     }
 
-
-
-
-
->>>>>>> d05f497469aa4901d4e75410354652859806a990
 }
