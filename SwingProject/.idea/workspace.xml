@@ -1,7 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c19c8069-05d1-4c51-b173-cae81d360f35" name="Default" comment="" />
+    <list default="true" id="780501e3-9851-485e-a362-a8e3503f6254" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Part3_Images/~$$OOP Class Diag pt3.~vsdx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.mylyn/.taskListIndex/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.mylyn/.taskListIndex/segments_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.mylyn/.tasks.xml.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.mylyn/tasks.xml.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.projects/KingsAndCreatures/.markers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.projects/KingsAndCreatures/.markers.snap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.projects/KingsAndCreatures/.syncinfo.snap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.root/4.tree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.root/6.tree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fnm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.frq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.nrm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.prx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tii" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tis" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1037673778.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1065099063.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1086461628.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1294788268.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1295027826.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1312586118.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/136936140.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1702462936.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1721714348.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1772331564.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1870404111.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1921432459.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/1929933281.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/2033839043.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/2349671270.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/2451833951.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/2546076573.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/2672315831.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/2825787128.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/2936170451.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/3005519014.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/3045949842.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/3075621779.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/3188099249.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/4114286282.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/4261591596.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/4266428024.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/565899265.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/756006386.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_3_1.del" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_4.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_4_1.del" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_5.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_5_1.del" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_6.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_28.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_29.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2a.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2b.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2c.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2d.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2e.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2f.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2g.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/_2i.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/segments_2b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/4396159c0b7f4a7577c7d0ac357828cc/write.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/60cb5e50c470f3550de12ad8c74b2143/_0.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/60cb5e50c470f3550de12ad8c74b2143/_0_1.del" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/60cb5e50c470f3550de12ad8c74b2143/_1.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/60cb5e50c470f3550de12ad8c74b2143/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/60cb5e50c470f3550de12ad8c74b2143/segments_3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/60cb5e50c470f3550de12ad8c74b2143/write.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_a.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_a_2.del" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_b.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_c.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_c_1.del" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_d.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1067031141.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1217900089.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/230031258.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3494970168.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/42310312.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.fdt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.fdx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.fnm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.frq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.nrm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.prx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.tii" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_0.tis" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/segments_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/character/Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/character/Player.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/character/characterIterator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/character/dungeonMaster.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/character/iterator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/character/session.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.history/1a/60a470dc6f28001718ddba240e2982a0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.history/b1/902344886e28001718ddba240e2982a0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.history/ce/90f20c9c6d28001718ddba240e2982a0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.history/f7/d03dec927528001718ddba240e2982a0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.resources/.history/fe/b0e66d057628001718ddba240e2982a0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.debug.core/.launches/KingsAndCreatures (3).launch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.debug.core/.launches/KingsAndCreatures (4).launch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3244966301205003167.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf699655693486984670.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/caches/identified-project-coordinates.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/.recommenders/caches/manual-mappings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__org_springframework_spring_aop_4_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__org_springframework_spring_beans_4_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__org_springframework_spring_context_4_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__org_springframework_spring_core_4_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__org_springframework_spring_expression_4_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__org_springframework_spring_web_4_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/SpringMVCTutorial.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringMVC/KingsAndCreatures/target/tomcat/logs/access_log.2017-04-23" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/databaseProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/character/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/character/Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/character/characterIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/character/iterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/character/room.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/character/session.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/main.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/character/character.class" afterPath="$PROJECT_DIR$/target/classes/model/character/character.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KingsAndCreatures.iml" afterPath="$PROJECT_DIR$/KingsAndCreatures.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/character/character.java" afterPath="$PROJECT_DIR$/src/main/java/model/character/character.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,30 +173,33 @@
     <favorites_list name="KingsAndCreatures" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="kingsAndCreatures.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kingsAndCreatures.java">
+    <leaf>
+      <file leaf-file-name="KingsAndCreatures.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KingsAndCreatures.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="29" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="character.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/character/character.java">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
-              <folding>
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#2026#2027#0" expanded="true" />
-                <element signature="e#2054#2055#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="1169" column="59" lean-forward="false" selection-start-line="1169" selection-start-column="59" selection-end-line="1169" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kings-and-Creatures.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Kings-and-Creatures.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,9 +209,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -63,13 +225,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/character.java" />
-        <option value="$PROJECT_DIR$/src/main/java/character/kingsAndCreatures.java" />
-        <option value="$PROJECT_DIR$/src/main/java/character/character.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kingsAndCreatures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/character/iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/character/characterIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/character/room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/character/session.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/character/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/character/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/character/character.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/databaseProxy.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -92,6 +264,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,29 +288,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -379,47 +546,61 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c19c8069-05d1-4c51-b173-cae81d360f35" name="Default" comment="" />
-      <created>1493067165917</created>
+      <changelist id="2ae45ab6-d494-49e0-a108-a89372f44c04" name="Default" comment="" />
+      <created>1493174195285</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1493067165917</updated>
+      <updated>1493174195285</updated>
+      <workItem from="1493178135777" duration="22000" />
+      <workItem from="1493226000395" duration="777000" />
+      <workItem from="1493227081150" duration="129000" />
+      <workItem from="1493228668320" duration="1000" />
+      <workItem from="1493228678890" duration="336000" />
+      <workItem from="1493248372567" duration="239000" />
+      <workItem from="1493248981184" duration="35000" />
+      <workItem from="1493252986524" duration="74000" />
+      <workItem from="1493253365808" duration="66000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1679000" />
+  </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -433,51 +614,439 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/characterIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kingsAndCreatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/characterIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kingsAndCreatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/characterIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/characterIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/character/character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2054#2055#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/characterIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/dungeonMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kingsAndCreatures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/characterIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/character/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/character/character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2054#2055#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/databaseProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|KingsAndCreatures</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

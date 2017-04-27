@@ -1,15 +1,21 @@
 package model.character;
 
+
+
+import java.io.*;
+import java.util.*;
+
 /**
  * Created by Peter on 4/24/2017.
  */
-public class character {
+public class character extends Player{
     String name;
     String charClass;
     int Str = 10;
     int dex = 10;
     int intelligence = 10;
     //itemList items[];
+    public ArrayList<Item> itemList;
     //spellList spells[];
     int armor = 10;
     int mr = 10;
@@ -19,8 +25,9 @@ public class character {
     int speed = 10;
     String notes = "";
 
-
-
+    public character() {
+        ArrayList<Item> myList = new ArrayList<Item>();
+    }
 
     public character(String name, String charClass){
         this.name = name;
@@ -115,6 +122,7 @@ public class character {
         this.notes = notes;
     }
 
+<<<<<<< HEAD
     public String combat(character target){
         int attack_roll = (int) Math.ceil(Math.random()*20)+getStr();
         int ac = target.getArmor()+target.getDex();
@@ -123,4 +131,38 @@ public class character {
         }
         return "hit";
     }
+=======
+    public void Attack(Character character){}
+
+    public void Trade(Item item, Item item1, character character){
+        //Access item Array list of character, and self, swap items
+        removeItem(item, this.itemList);
+        storeItem(item1, this.itemList);
+
+        if(character != null) {
+            removeItem(item1, character.itemList);
+            storeItem(item, character.itemList);
+        }
+
+    }
+
+    public void removeItem(Item item, ArrayList<Item> itemList){
+        itemList.remove(item);
+    }
+
+    public void storeItem(Item item, ArrayList<Item> itemList){
+        itemList.add(item);
+    }
+
+    public void displayItems(character character){
+        for(Item item : character.itemList){
+            System.out.println(item.Name); //Needs to be changed to print to text box
+        }
+    }
+
+
+
+
+
+>>>>>>> d05f497469aa4901d4e75410354652859806a990
 }
