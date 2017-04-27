@@ -45,7 +45,14 @@ public class kingsAndCreatures {
         panel.add(showDialogButton);
         joename.setVisible(true);
         mainFrame.add(panel);
+
+        character james = new character("james","theif");
+
+        JLabel attack = new JLabel(james.Attack(joe));
+        panel.add(attack);
         mainFrame.setVisible(true);
+
+
 
 
     }

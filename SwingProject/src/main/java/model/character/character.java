@@ -122,11 +122,17 @@ public class character extends Player{
         this.notes = notes;
     }
 
-    public void Attack(character target){
+    public String Attack(character target){
         int attack_roll = (int) Math.ceil(Math.random()*20)+getStr();
         int ac = target.getArmor()+target.getDex();
+        System.out.println("Roll: "+attack_roll);
+        System.out.println("AC: "+ ac);
         if (attack_roll >= ac){
             System.out.println("hit");
+            return "hit";
+        } else {
+            System.out.println("miss");
+            return "miss";
         }
     }
 
