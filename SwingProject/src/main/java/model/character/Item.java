@@ -3,7 +3,7 @@ package model.character;
 /**
  * Created by Ameya on 4/24/17.
  */
-public class Item extends character{
+public class Item{
 
     String Name;
 

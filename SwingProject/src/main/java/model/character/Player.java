@@ -3,7 +3,7 @@ package model.character;
 /**
  * Created by Ameya on 4/25/17.
  */
-public class Player extends character {
+public class Player{
 
     character Character;
     //Probably needs to take in something different
