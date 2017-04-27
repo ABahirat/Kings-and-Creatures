@@ -1,3 +1,4 @@
+
 package model.character;
 
 
@@ -8,8 +9,6 @@ import java.util.*;
 /**
  * Created by Peter on 4/24/2017.
  */
-
-//DOES NOT EXTEND PLAYER, player owns character, having it extend would cause player and character to keep constructing each other
 public class character{
     String name;
     String charClass;
@@ -127,7 +126,19 @@ public class character{
         this.notes = notes;
     }
 
-    public void Attack(Character character){}
+    public String Attack(character target){
+        int attack_roll = (int) Math.ceil(Math.random()*20)+getStr();
+        int ac = target.getArmor()+target.getDex();
+        System.out.println("Roll: "+attack_roll);
+        System.out.println("AC: "+ ac);
+        if (attack_roll >= ac){
+            System.out.println("hit");
+            return "hit";
+        } else {
+            System.out.println("miss");
+            return "miss";
+        }
+    }
 
     public void Trade(Item item, Item item1, character character){
         //Access item Array list of character, and self, swap items
@@ -155,8 +166,5 @@ public class character{
         }
     }
 
-
-
-
-
 }
+

@@ -1,3 +1,4 @@
+
 package model.character;
 import java.util.*;
 /**
@@ -30,3 +31,4 @@ public class dungeonMaster extends user{
     }
 
 }
+
