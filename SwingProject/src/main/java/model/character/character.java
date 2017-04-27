@@ -116,6 +116,11 @@ public class character {
     }
 
     public String combat(character target){
+        int attack_roll = (int) Math.ceil(Math.random()*20)+getStr();
+        int ac = target.getArmor()+target.getDex();
+        if (attack_roll >= ac){
+
+        }
         return "hit";
     }
 }
