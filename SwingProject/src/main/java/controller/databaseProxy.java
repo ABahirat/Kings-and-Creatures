@@ -13,6 +13,21 @@ import java.util.*;
 
 /*******Source for code: http://stackoverflow.com/questions/2839321/connect-java-to-a-mysql-database******/
 
+/**Usage:
+     String sql = "SELECT * FROM `stackoverflow`";
+     try {
+         PreparedStatement statement = mysqlConnect.connect().prepareStatement(sql);
+         ... go on ...
+         ... go on ...
+         ... DONE ....
+     } catch (SQLException e) {
+         e.printStackTrace();
+     } finally {
+         mysqlConnect.disconnect();
+     }
+
+ **/
+
 /**
  * Created by Ameya on 4/26/17.
  */
