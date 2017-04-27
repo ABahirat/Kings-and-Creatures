@@ -1,6 +1,4 @@
 package model.character;
-import model.character.Player;
-import model.character.character;
 import java.util.*;
 /**
  * Created by Peter on 4/25/2017.
@@ -9,7 +7,14 @@ public class session {
     String name;
     String password;
     ArrayList<Player> playerList;
+    dungeonMaster DM;
     ArrayList<room> map;
+    iteratorDP characterIterator;
+
+
+    public void generateTurnOrder(){
+        Collections.shuffle(this.playerList);
+    }
 
     public void setName(String name) {
         this.name = name;

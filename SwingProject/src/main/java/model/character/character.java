@@ -8,7 +8,9 @@ import java.util.*;
 /**
  * Created by Peter on 4/24/2017.
  */
-public class character extends Player{
+
+//DOES NOT EXTEND PLAYER, player owns character, having it extend would cause player and character to keep constructing each other
+public class character{
     String name;
     String charClass;
     int Str = 10;
@@ -24,8 +26,11 @@ public class character extends Player{
     int gold = 10;
     int speed = 10;
     String notes = "";
+    user owner;
 
     public character() {
+        this.name = "Jim the Dubious";
+        this.charClass = "Rogue";
         ArrayList<Item> myList = new ArrayList<Item>();
     }
 
