@@ -115,6 +115,8 @@ public class characterCreation extends JFrame {
             {
                 jcharacterFrame = new characterFrame();
                 characterCreation.this.doNextButtonstuff(jcharacterFrame);
+                mainFrame.setVisible(false);
+
             }
 
         });
