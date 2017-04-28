@@ -26,7 +26,7 @@ public class frameController {
         this.mainFrame.setSize(512, 512);
         character joe = new character("Joe", "Knight");
         this.name = joe.getName();
-        this.mainPanel = this.addPanel();
+        this.mainPanel = this.addPanel(this.mainFrame);
         this.mainLabel = this.addLabel("Hello There", this.mainPanel);
         this.mainButton = this.addButton("I am a button", this.mainPanel);
 
@@ -40,8 +40,16 @@ public class frameController {
 
 
     public void doButtonstuff(JLabel label){
-        label.setText(this.newname);
+//        label.setText(this.newname);
         //System.out.println(someString);
+        JFrame secondFrame = new JFrame("Second");
+        JPanel secondPanel = this.addPanel(secondFrame);
+        this.addLabel("this is the second frame",secondPanel);
+        this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        secondFrame.add(secondPanel);
+        secondFrame.setSize(500,500);
+        secondFrame.setVisible(true);
+        this.mainFrame.setVisible(false);
     }
 
     public JButton addButton(String buttonText, JPanel panel){
@@ -71,10 +79,10 @@ public class frameController {
 
     }
 
-    public JPanel addPanel(){
+    public JPanel addPanel(JFrame frame){
         JPanel panel = new JPanel();
 
-        this.mainFrame.add(panel);
+        frame.add(panel);
         panel.setVisible(true);
         return panel;
     }
