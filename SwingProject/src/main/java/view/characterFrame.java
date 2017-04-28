@@ -12,7 +12,7 @@ import java.util.ArrayList;
 /**
  * Created by Ameya on 4/27/17.
  */
-public class characterFrame {
+public class characterFrame extends JPanel{
 
 
         public String name;
@@ -29,9 +29,9 @@ public class characterFrame {
 
 
 
-        public characterFrame(String Character){
-            findCharacterList = characterCreation.getCreatedCharacters();
-            this.mainFrame = new JFrame(character.getCharacter(new_character).getName() + " the " + new_character.getCharClass());
+        public characterFrame(){
+            //findCharacterList = characterCreation.getCreatedCharacters();
+           // this.mainFrame = new JFrame(character.getCharacter(new_character).getName() + " the " + new_character.getCharClass());
             this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             this.mainFrame.setSize(512, 512);
             txtdata = new JTextField();
@@ -40,7 +40,7 @@ public class characterFrame {
             //this.name = joe.getName();
             this.mainPanel = this.addPanel();
             this.mainLabel = this.addLabel("Hello There", this.mainPanel);
-            this.mainButton = this.addButton("Create Character!", this.mainPanel);
+            this.mainButton = this.addButton("Character Frame", this.mainPanel);
             JPanel upperPanel = new JPanel();
 
             mainFrame.getContentPane().add(upperPanel, "North");
@@ -60,6 +60,7 @@ public class characterFrame {
 
 
             this.mainFrame.setVisible(true);
+
         }
 
         public void doButtonstuff(JLabel label){

@@ -7,12 +7,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
-
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * Created by Ameya on 4/27/17.
  */
-public class characterCreation {
+public class characterCreation extends JFrame {
 
     public String name;
     public JFrame mainFrame;
@@ -20,15 +21,17 @@ public class characterCreation {
     public JLabel mainLabel;
     public JPanel mainPanel;
     public JButton mainButton;
+    public JButton nextButton;
     public JTextField txtdata;
     public JTextArea character_name;
     public JTextArea character_class;
     public JPanel upperPanel;
     public ArrayList<character> createdCharacters;
+    private JPanel jcharacterFrame;
 
 
 
-    public characterCreation(String Character){
+    public characterCreation(){
         this.mainFrame = new JFrame("Kings and Creatures");
         this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.mainFrame.setSize(512, 512);
@@ -39,6 +42,7 @@ public class characterCreation {
         this.mainPanel = this.addPanel();
         this.mainLabel = this.addLabel("Hello There", this.mainPanel);
         this.mainButton = this.addButton("Create Character!", this.mainPanel);
+
         JPanel upperPanel = new JPanel();
 
         mainFrame.getContentPane().add(upperPanel, "North");
@@ -66,13 +70,23 @@ public class characterCreation {
         String new_character_name = character_name.getText();
         String new_character_class = character_class.getText();
         character new_character = new character(new_character_name, new_character_class);
-        createdCharacters.add(new_character);
+        //createdCharacters.add(new_character);
         label.setText("Welcome " + new_character.getName() + " the " + new_character.getCharClass() + "!");
 
     }
 
+    public void doNextButtonstuff(JPanel panel){
+        getContentPane().removeAll();
+        getContentPane().add(panel, BorderLayout.CENTER);
+        getContentPane().revalidate();
+        getContentPane().doLayout();
+        getContentPane().repaint();
+        update(getGraphics());
+    }
+
     public JButton addButton(String buttonText, JPanel panel){
         JButton showDialogButton = new JButton(buttonText);
+
 
         // add the listener to the jbutton to handle the "pressed" event
         showDialogButton.addActionListener(new ActionListener()
@@ -80,6 +94,27 @@ public class characterCreation {
             public void actionPerformed(ActionEvent e)
             {
                 characterCreation.this.doButtonstuff(characterCreation.this.mainLabel);
+                mainButton.setVisible(false);
+                nextButton = nextButton("Next", mainPanel);
+                nextButton.setVisible(true);
+            }
+
+        });
+        panel.add(showDialogButton);
+        return showDialogButton;
+
+    }
+
+    public JButton nextButton(String buttonText, JPanel panel){
+        JButton showDialogButton = new JButton(buttonText);
+
+        // add the listener to the jbutton to handle the "pressed" event
+        showDialogButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+               jcharacterFrame = new characterFrame();
+                characterCreation.this.doNextButtonstuff(jcharacterFrame);
             }
 
         });

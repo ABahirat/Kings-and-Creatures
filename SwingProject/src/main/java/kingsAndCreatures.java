@@ -17,8 +17,8 @@ public class kingsAndCreatures {
 
     public static void main(String args[]){
 
-    frameController mainFrame = new frameController("I am a changed String");
-//    characterCreation mainFrame = new characterCreation("I am a changed String");
+    //frameController mainFrame = new frameController("I am a changed String");
+    characterCreation mainFrame = new characterCreation();
 
 
 
