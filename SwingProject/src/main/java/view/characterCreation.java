@@ -50,10 +50,10 @@ public class characterCreation extends JFrame {
 
         upperPanel.add(new JTextArea());
 
-        this.character_name = new JTextArea(1, 6);
+        this.character_name = new JTextArea("enter name", 1, 6);
         upperPanel.add(character_name);
 
-        this.character_class = new JTextArea(1, 6);
+        this.character_class = new JTextArea("enter class", 1, 6);
         upperPanel.add(character_class);
 
         mainFrame.pack();
