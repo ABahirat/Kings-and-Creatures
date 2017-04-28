@@ -1,12 +1,12 @@
 package view;
 
+import model.character.Player;
 import model.character.character;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-
-
+import java.util.ArrayList;
 
 
 /**
@@ -24,6 +24,8 @@ public class characterCreation {
     public JTextArea character_name;
     public JTextArea character_class;
     public JPanel upperPanel;
+    public ArrayList<character> createdCharacters;
+
 
 
     public characterCreation(String Character){
@@ -64,6 +66,7 @@ public class characterCreation {
         String new_character_name = character_name.getText();
         String new_character_class = character_class.getText();
         character new_character = new character(new_character_name, new_character_class);
+        createdCharacters.add(new_character);
         label.setText("Welcome " + new_character.getName() + " the " + new_character.getCharClass() + "!");
 
     }
@@ -99,5 +102,9 @@ public class characterCreation {
         this.mainFrame.add(panel);
         panel.setVisible(true);
         return panel;
+    }
+
+    public ArrayList<character> getCreatedCharacters(){
+        return createdCharacters;
     }
 }
