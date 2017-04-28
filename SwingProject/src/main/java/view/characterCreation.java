@@ -114,7 +114,7 @@ public class characterCreation extends JFrame {
             public void actionPerformed(ActionEvent e)
             {
                jcharacterFrame = new characterFrame();
-                characterCreation.this.doNextButtonstuff(jcharacterFrame);
+               characterCreation.this.doNextButtonstuff(jcharacterFrame);
             }
 
         });
