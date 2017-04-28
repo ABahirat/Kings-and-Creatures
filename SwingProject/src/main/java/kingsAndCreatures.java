@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import view.frameController;
+import view.startFrame;
 import view.characterCreation;
 
 
