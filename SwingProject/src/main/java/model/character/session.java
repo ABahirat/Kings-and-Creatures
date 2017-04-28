@@ -10,9 +10,34 @@ public class session {
     ArrayList<Player> playerList;
     dungeonMaster DM;
     ArrayList<room> map;
-    iteratorDP characterIterator;
+    characterArrayIterator characterIterator;
 
+    public session(){
+        this.name = "Game";
+        this.password = "Game";
+        this.playerList = new ArrayList<Player>();
+        this.characterIterator = this.makeIterator();
 
+    }
+    public void doturns(){
+        this.characterIterator.next();
+        this.characterIterator.next();
+        this.characterIterator.next();
+        this.characterIterator.next();
+        this.characterIterator.next();
+        this.characterIterator.next();
+        this.characterIterator.next();
+        this.characterIterator.next();
+    }
+
+    public characterArrayIterator makeIterator(){
+        return new characterArrayIterator();
+    }
+
+    public void setupchars(ArrayList<character> npcs){
+        this.characterIterator.addAllPlayerChars(this.playerList);
+        this.characterIterator.addNPCs(npcs);
+    }
     public void generateTurnOrder(){
         Collections.shuffle(this.playerList);
     }

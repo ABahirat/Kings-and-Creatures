@@ -10,6 +10,10 @@ public class characterArrayIterator implements iteratorDP {
     private int currentIndex = 0;
     private ArrayList<character> characterList;
 
+    public characterArrayIterator(){
+        this.characterList = new ArrayList<character>();
+    }
+
     @Override
     public iteratorDP createIterator(){
         return new characterArrayIterator();
@@ -19,10 +23,12 @@ public class characterArrayIterator implements iteratorDP {
     public character next(){
         if (this.hasNext()){
             currentIndex++;
+            System.out.println(this.characterList.get(currentIndex).getName());
             return this.characterList.get(currentIndex);
         }
         else{
             currentIndex = 0;
+            System.out.println("New Round!");
             Collections.shuffle(this.characterList);
             return this.characterList.get(currentIndex);
         }

@@ -13,6 +13,11 @@ public class Player extends user{
         this.Character = new character("Jim the Dubious", "Rogue");
     }
 
+    public Player(String name){
+        this.name = name;
+        this.Character = new character("Jim the Dubious", "Rogue");
+    }
+
 
     //Probably needs to take in something different
     public character createCharacter(String name, String charClass){

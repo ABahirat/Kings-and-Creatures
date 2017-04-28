@@ -14,10 +14,11 @@ public class dungeonMaster extends user{
     public dungeonMaster(String name){
         this.name = name;
         this.activeSession = new session();
+        this.npcList = new ArrayList<character>();
     }
 
     public  void addNPC(String name){
-        this.npcList.add(new character("Steve", "Knight"));
+        this.npcList.add(new character(name, "Orc"));
     }
 
     public session createSession() {
