@@ -29,7 +29,7 @@ public class frameController extends JFrame {
 
     public frameController(String paramname){
         this.newname = paramname;
-        //this.mainFrame = new JFrame("Kings and Creatures");
+        this.mainFrame = new JFrame("Kings and Creatures");
         this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.mainFrame.setSize(512, 512);
         character joe = new character("Joe", "Knight");
@@ -37,6 +37,9 @@ public class frameController extends JFrame {
         this.mainPanel = this.addPanel(this.mainFrame);
         this.mainLabel = this.addLabel("Hello There", this.mainPanel);
         this.mainButton = this.addButton("I am a button", this.mainPanel);
+        character james = new character("james","god");
+        this.addLabel(james.Attack(joe),mainPanel);
+
 
 
 

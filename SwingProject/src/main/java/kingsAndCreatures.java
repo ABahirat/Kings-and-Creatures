@@ -31,12 +31,14 @@ public class kingsAndCreatures {
         dm.activeSession.addPlayer(player3);
         dm.activeSession.setupchars(dm.npcList);
         dm.activeSession.doturns();
+        characterArrayIterator charIterator = dm.activeSession.makeIterator();
 
 
 
 
-    //frameController mainFrame = new frameController("I am a changed String");
-    characterCreation mainFrame = new characterCreation();
+
+//    frameController mainFrame = new frameController("I am a changed String");
+    characterCreation mainFrame = new characterCreation(charIterator);
 
 
 
