@@ -1,10 +1,18 @@
 package view;
 
 import model.character.character;
+import controller.databaseProxy;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.PipedOutputStream;
+import java.sql.PreparedStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
+
 
 /**
  * Created by vindi on 4/26/2017.
@@ -86,6 +94,29 @@ public class frameController {
         panel.setVisible(true);
         return panel;
     }
+
+
+    /**source: http://www.java2s.com/Code/Java/Swing-JFC/Reacttoframecloseaction.htm **/
+    public class CloseFrameAction extends JFrame {
+        public CloseFrameAction() {
+            setTitle("CloseableFrame");
+            setSize(300, 200);
+            addWindowListener(new WindowAdapter() {
+                public void windowClosing(WindowEvent e) {
+                    String sql = "placeholder";//insert into database
+                    databaseProxy mysqlConnect = new databaseProxy();
+                    try{
+                    PreparedStatement statement = mysqlConnect.connect().prepareStatement(sql);
+                    } catch (SQLException E) {
+                        E.printStackTrace();
+                    } finally {
+                        mysqlConnect.disconnect();
+                    }
+                    System.exit(0);
+
+                }
+            });
+        }
 
 
 }
