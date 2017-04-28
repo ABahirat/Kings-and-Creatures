@@ -62,4 +62,8 @@ public class characterArrayIterator implements iteratorDP {
         }
     }
 
+    public void removeChar(character target){
+        this.characterList.remove(target);
+    }
+
 }

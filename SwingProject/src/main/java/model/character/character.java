@@ -126,18 +126,34 @@ public class character{
         this.notes = notes;
     }
 
-    public String Attack(character target){
-        int attack_roll = (int) Math.ceil(Math.random()*20)+getStr();
-        int ac = target.getArmor()+target.getDex();
-        System.out.println("Roll: "+attack_roll);
-        System.out.println("AC: "+ ac);
-        if (attack_roll >= ac){
-            System.out.println("hit");
-            return "hit";
+    public String Attack(character target) {
+        int attack_roll = (int) Math.ceil(Math.random() * 20) + getStr();
+        int ac = target.getArmor() + target.getDex();
+        System.out.println("Roll: " + attack_roll);
+        System.out.println("AC: " + ac);
+        if (attack_roll >= ac) {
+            int damage = (int) Math.ceil(Math.random() * 6);
+            int prev = target.getHealth();
+            target.takeDamage(damage);
+            int current = target.getHealth();
+            String ret = target.getName()+" took "+ damage+ " damage. "+ prev + "->"+current;
+            return ret;
         } else {
             System.out.println("miss");
             return "miss";
         }
+    }
+
+    public boolean checkAlive(){
+        if(this.getHealth()> 0){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void takeDamage(int damage){
+        setHealth(getHealth()-damage);
     }
 
     public void Trade(Item item, Item item1, character character){
