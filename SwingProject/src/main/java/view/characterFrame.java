@@ -31,7 +31,7 @@ public class characterFrame extends JPanel{
 
         public characterFrame(){
             //findCharacterList = characterCreation.getCreatedCharacters();
-           // this.mainFrame = new JFrame(character.getCharacter(new_character).getName() + " the " + new_character.getCharClass());
+            //this.mainFrame = new JFrame(character.getCharacter(new_character).getName() + " the " + new_character.getCharClass());
             this.mainFrame = new JFrame ("Character");
             this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             this.mainFrame.setSize(512, 512);
@@ -56,8 +56,6 @@ public class characterFrame extends JPanel{
             upperPanel.add(character_class);
 
             mainFrame.pack();
-
-
 
 
             this.mainFrame.setVisible(true);

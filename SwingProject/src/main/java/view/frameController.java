@@ -17,7 +17,7 @@ import java.util.Properties;
 /**
  * Created by vindi on 4/26/2017.
  */
-public class frameController {
+public class frameController extends JFrame {
     public String name;
     public JFrame mainFrame;
     public String newname;
@@ -29,7 +29,7 @@ public class frameController {
 
     public frameController(String paramname){
         this.newname = paramname;
-        this.mainFrame = new JFrame("Kings and Creatures");
+        //this.mainFrame = new JFrame("Kings and Creatures");
         this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.mainFrame.setSize(512, 512);
         character joe = new character("Joe", "Knight");
@@ -95,6 +95,15 @@ public class frameController {
         return panel;
     }
 
+    public void doNextButtonstuff(JPanel panel){
+        getContentPane().removeAll();
+        getContentPane().add(panel, BorderLayout.CENTER);
+        getContentPane().revalidate();
+        getContentPane().doLayout();
+        getContentPane().repaint();
+        update(getGraphics());
+    }
+
 
     /**source: http://www.java2s.com/Code/Java/Swing-JFC/Reacttoframecloseaction.htm **/
     public class CloseFrameAction extends JFrame {
@@ -105,8 +114,8 @@ public class frameController {
                 public void windowClosing(WindowEvent e) {
                     String sql = "placeholder";//insert into database
                     databaseProxy mysqlConnect = new databaseProxy();
-                    try{
-                    PreparedStatement statement = mysqlConnect.connect().prepareStatement(sql);
+                    try {
+                        PreparedStatement statement = mysqlConnect.connect().prepareStatement(sql);
                     } catch (SQLException E) {
                         E.printStackTrace();
                     } finally {
@@ -117,6 +126,7 @@ public class frameController {
                 }
             });
         }
+    }
 
 
 }
