@@ -2,6 +2,7 @@ package view;
 
 import model.character.Player;
 import model.character.character;
+import model.character.characterArrayIterator;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,10 +29,11 @@ public class characterCreation extends JFrame {
     public JPanel upperPanel;
     public ArrayList<character> createdCharacters;
     private JPanel jcharacterFrame;
+    private characterArrayIterator iterator;
 
 
-
-    public characterCreation(){
+    public characterCreation(characterArrayIterator iterator){
+        this.iterator = iterator;
         this.mainFrame = new JFrame("Kings and Creatures");
         this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.mainFrame.setSize(512, 512);
@@ -70,6 +72,8 @@ public class characterCreation extends JFrame {
         String new_character_name = character_name.getText();
         String new_character_class = character_class.getText();
         character new_character = new character(new_character_name, new_character_class);
+        iterator.addChar(new_character);
+        System.out.println(iterator.display());
         //createdCharacters.add(new_character);
         label.setText("Welcome " + new_character.getName() + " the " + new_character.getCharClass() + "!");
 

@@ -56,6 +56,19 @@ public class characterArrayIterator implements iteratorDP {
         }
     }
 
+    public void addChar(character character){
+        this.characterList.add(character);
+    }
+
+    public String display(){
+        String list = "";
+        for (int i = 0; i < characterList.size(); i++){
+            list += characterList.get(i).getName()+" the "+ characterList.get(i).getCharClass()+"\n";
+        }
+
+        return list;
+    }
+
     public void addNPCs(ArrayList<character> npcList){
         for (int i = 0; i < npcList.size(); i++){
             this.characterList.add(npcList.get(i));
