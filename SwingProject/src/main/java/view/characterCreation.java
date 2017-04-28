@@ -40,7 +40,7 @@ public class characterCreation extends JFrame {
         //character joe = new character("Joe", "Knight");
         //this.name = joe.getName();
         this.mainPanel = this.addPanel();
-        this.mainLabel = this.addLabel("Hello There", this.mainPanel);
+        //this.mainLabel = this.addLabel("Hello There", this.mainPanel);
         this.mainButton = this.addButton("Create Character!", this.mainPanel);
 
         JPanel upperPanel = new JPanel();
@@ -50,10 +50,11 @@ public class characterCreation extends JFrame {
 
         upperPanel.add(new JTextArea());
 
-        this.character_name = new JTextArea(1, 6);
+
+        this.character_name = new JTextArea("enter name", 1, 7);
         upperPanel.add(character_name);
 
-        this.character_class = new JTextArea(1, 6);
+        this.character_class = new JTextArea("enter class" ,1, 7);
         upperPanel.add(character_class);
 
         mainFrame.pack();

@@ -40,7 +40,7 @@ public class characterFrame extends JPanel{
             //character joe = new character("Joe", "Knight");
             //this.name = joe.getName();
             this.mainPanel = this.addPanel();
-            this.mainLabel = this.addLabel("Hello There", this.mainPanel);
+            this.mainLabel = this.addLabel("Welcome to the character frame", this.mainPanel);
             this.mainButton = this.addButton("Character Frame", this.mainPanel);
             JPanel upperPanel = new JPanel();
 
