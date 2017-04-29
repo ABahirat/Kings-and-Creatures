@@ -1,5 +1,6 @@
 package view;
 
+import controller.databaseProxy;
 import model.character.Player;
 import model.character.character;
 import view.characterCreation;
@@ -7,6 +8,8 @@ import view.characterCreation;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
@@ -21,6 +24,7 @@ public class characterFrame extends JPanel{
         public JLabel mainLabel;
         public JPanel mainPanel;
         public JButton mainButton;
+        public JButton saveButton;
         public JTextField txtdata;
         public JTextArea character_name;
         public JTextArea character_class;
@@ -42,6 +46,7 @@ public class characterFrame extends JPanel{
             this.mainPanel = this.addPanel();
             this.mainLabel = this.addLabel("Welcome to the character frame", this.mainPanel);
             this.mainButton = this.addButton("Character Frame", this.mainPanel);
+            this.saveButton = this.SaveButton("Save", this.mainPanel);
             JPanel upperPanel = new JPanel();
 
             mainFrame.getContentPane().add(upperPanel, "North");
@@ -88,6 +93,34 @@ public class characterFrame extends JPanel{
             return showDialogButton;
 
         }
+
+    public JButton SaveButton(String buttonText, JPanel panel){
+        JButton showDialogButton = new JButton(buttonText);
+
+        // add the listener to the jbutton to handle the "pressed" event
+        showDialogButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                String sql = "select * from `characters`";//insert into database
+                databaseProxy mysqlConnect = new databaseProxy();
+                try {
+                    PreparedStatement statement = mysqlConnect.connect().prepareStatement(sql);
+                    System.out.println("Database Connected");
+                } catch (SQLException E) {
+                    System.out.println("ERROR");
+                    E.printStackTrace();
+                } finally {
+                    mysqlConnect.disconnect();
+                }
+                //System.exit(0);
+            }
+
+        });
+        panel.add(showDialogButton);
+        return showDialogButton;
+
+    }
 
         public JLabel addLabel(String text, JPanel panel){
             JLabel myLabel = new JLabel();

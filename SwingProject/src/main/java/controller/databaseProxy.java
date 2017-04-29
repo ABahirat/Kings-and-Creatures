@@ -34,7 +34,7 @@ import java.util.*;
 public class databaseProxy {
 
     private static final String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/kingsandcreatures";
+    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/KAC";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
     private static final String MAX_POOL = "250";
@@ -43,6 +43,7 @@ public class databaseProxy {
     private Connection connection;
     // init properties object
     private Properties properties;
+
 
     // create properties
     private Properties getProperties() {
