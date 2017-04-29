@@ -39,7 +39,7 @@ public class kingsAndCreatures {
 
 
 //    frameController mainFrame = new frameController("I am a changed String");
-    //characterCreation mainFrame = new characterCreation(charIterator);
+    characterCreation mainFrame2 = new characterCreation(charIterator);
 
 
 
