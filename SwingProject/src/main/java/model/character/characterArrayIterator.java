@@ -79,4 +79,10 @@ public class characterArrayIterator implements iteratorDP {
         this.characterList.remove(target);
     }
 
+    //jcomboboxes need arrays not arraylists
+    public character[] getCharArray(){
+        character [] charArr = this.characterList.toArray(new character[this.characterList.size()]);
+        return charArr;
+    }
+
 }

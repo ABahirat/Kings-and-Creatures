@@ -31,11 +31,14 @@ public class character{
         this.name = "Jim the Dubious";
         this.charClass = "Rogue";
         ArrayList<Item> myList = new ArrayList<Item>();
+        this.itemList = new ArrayList<Item>();
     }
 
     public character(String name, String charClass){
         this.name = name;
         this.charClass = charClass;
+        ArrayList<Item> myList = new ArrayList<Item>();
+        this.itemList = new ArrayList<Item>();
     }
 
     public String getName() {
@@ -180,6 +183,11 @@ public class character{
         for(Item item : character.itemList){
             System.out.println(item.Name); //Needs to be changed to print to text box
         }
+    }
+
+    public Item [] getItemArray(){
+        Item [] itemArr = this.itemList.toArray(new Item[this.itemList.size()]);
+        return itemArr;
     }
 
 }

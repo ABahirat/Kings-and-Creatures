@@ -12,6 +12,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
+import model.character.*;
 
 
 /**
@@ -24,21 +25,26 @@ public class frameController extends JFrame {
     public JLabel mainLabel;
     public JPanel mainPanel;
     public JButton mainButton;
+    public turnOrder turnOrderPanel;
 
 
 
-    public frameController(String paramname){
+    public frameController(String paramname, dungeonMaster dm){
         this.newname = paramname;
         this.mainFrame = new JFrame("Kings and Creatures");
         this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.mainFrame.setSize(512, 512);
         character joe = new character("Joe", "Knight");
-        this.name = joe.getName();
-        this.mainPanel = this.addPanel(this.mainFrame);
-        this.mainLabel = this.addLabel("Hello There", this.mainPanel);
-        this.mainButton = this.addButton("I am a button", this.mainPanel);
-        character james = new character("james","god");
-        this.addLabel(james.Attack(joe),mainPanel);
+        this.turnOrderPanel = new turnOrder(dm);
+        tradeDialogue tradeDialogue = new tradeDialogue(joe, joe);
+        this.mainFrame.add(tradeDialogue);
+        //this.mainFrame.add(turnOrderPanel);
+        //this.name = joe.getName();
+        //this.mainPanel = this.addPanel(this.mainFrame);
+        //this.mainLabel = this.addLabel("Hello There", this.mainPanel);
+        //this.mainButton = this.addButton("I am a button", this.mainPanel);
+        //character james = new character("james","god");
+        //this.addLabel(james.Attack(joe),mainPanel);
 
 
 

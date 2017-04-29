@@ -34,6 +34,10 @@ public class session {
         return new characterArrayIterator();
     }
 
+    public characterArrayIterator getIterator(){
+        return this.characterIterator;
+    }
+
     public void setupchars(ArrayList<character> npcs){
         this.characterIterator.addAllPlayerChars(this.playerList);
         this.characterIterator.addNPCs(npcs);

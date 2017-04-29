@@ -71,7 +71,7 @@ public class startFrame extends JFrame {
             public void actionPerformed(ActionEvent e)
             {
                 jcharacterCreationFrame = new characterFrame();
-                frameController frameCont = new frameController("string");
+                //frameController frameCont = new frameController("string");
                 startFrame.this.doNextButtonstuff(jcharacterCreationFrame);
                 //frameCont.doNextButtonstuff(jcharacterCreationFrame);
                 mainFrame.setVisible(false);

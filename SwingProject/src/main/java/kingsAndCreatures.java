@@ -30,15 +30,16 @@ public class kingsAndCreatures {
         dm.activeSession.addPlayer(player2);
         dm.activeSession.addPlayer(player3);
         dm.activeSession.setupchars(dm.npcList);
-        dm.activeSession.doturns();
+        //dm.activeSession.doturns();
         characterArrayIterator charIterator = dm.activeSession.makeIterator();
+        frameController mainFrame = new frameController("Kings And Creatures", dm);
 
 
 
 
 
 //    frameController mainFrame = new frameController("I am a changed String");
-    characterCreation mainFrame = new characterCreation(charIterator);
+    //characterCreation mainFrame = new characterCreation(charIterator);
 
 
 
