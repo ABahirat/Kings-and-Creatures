@@ -1,12 +1,10 @@
 package view;
 
-import model.character.Player;
-import model.character.character;
-import model.character.characterArrayIterator;
+import model.character;
+import model.characterArrayIterator;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,9 +14,7 @@ import java.awt.event.ActionListener;
  */
 public class characterCreation extends JFrame {
 
-    public String name;
     public JFrame mainFrame;
-    public String newname;
     public JLabel mainLabel;
     public JPanel mainPanel;
     public JButton mainButton;
@@ -26,10 +22,8 @@ public class characterCreation extends JFrame {
     public JTextField txtdata;
     public JTextArea character_name;
     public JTextArea character_class;
-    public JPanel upperPanel;
-    public ArrayList<character> createdCharacters;
-    private JPanel jcharacterFrame;
-    private characterArrayIterator iterator;
+    public JPanel jcharacterFrame;
+    public characterArrayIterator iterator;
 
 
     public characterCreation(characterArrayIterator iterator){
@@ -145,7 +139,5 @@ public class characterCreation extends JFrame {
         return panel;
     }
 
-    public ArrayList<character> getCreatedCharacters(){
-        return createdCharacters;
-    }
+
 }

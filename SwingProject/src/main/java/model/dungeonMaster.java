@@ -1,5 +1,5 @@
 
-package model.character;
+package model;
 import java.util.*;
 /**
  * Created by vindi on 4/25/2017.
@@ -14,6 +14,8 @@ public class dungeonMaster extends user{
     public dungeonMaster(String name){
         this.name = name;
         this.activeSession = new session();
+        this.sessionList = new ArrayList<session>();
+        this.sessionList.add(this.activeSession);
         this.npcList = new ArrayList<character>();
     }
 
@@ -27,8 +29,8 @@ public class dungeonMaster extends user{
         return new_Session;
     }
 
-    public void addPlayer(session Session, Player Player){
-        Session.addPlayer(Player);
+    public void addPlayer(session Session, player player){
+        Session.addPlayer(player);
     }
 
 }

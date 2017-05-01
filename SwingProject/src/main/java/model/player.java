@@ -1,19 +1,20 @@
 
-package model.character;
+package model;
 
 /**
  * Created by Ameya on 4/25/17.
  */
-public class Player extends user{
+public class player extends user{
 
+    String name;
     character Character;
 
-    public Player(){
+    public player(){
         this.name = "Jim";
         this.Character = new character("Jim the Dubious", "Rogue");
     }
 
-    public Player(String name){
+    public player(String name){
         this.name = name;
         this.Character = new character(name +" the Dubious", "Rogue");
     }

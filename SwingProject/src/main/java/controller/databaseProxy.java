@@ -5,13 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-import model.character.character;
-import model.character.dungeonMaster;
-import model.character.Player;
-import java.util.*;
 
-
-/*******Source for code: http://stackoverflow.com/questions/2839321/connect-java-to-a-mysql-database******/
+/******* Source for code: http://stackoverflow.com/questions/2839321/connect-java-to-a-mysql-database ******/
 
 /**Usage:
      String sql = "SELECT * FROM `stackoverflow`";
@@ -54,6 +49,7 @@ public class databaseProxy {
             properties.setProperty("MaxPooledStatements", MAX_POOL);
         }
         return properties;
+
     }
 
     // connect database

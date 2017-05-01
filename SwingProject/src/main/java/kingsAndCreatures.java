@@ -2,16 +2,11 @@
 /**
  * Created by Peter on 4/24/2017.
  */
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
+import model.characterArrayIterator;
+import model.dungeonMaster;
+import model.player;
 import view.frameController;
-import view.startFrame;
 import view.characterCreation;
-
-
-import model.character.character;
-import model.character.*;
 
 
 public class kingsAndCreatures {
@@ -23,9 +18,9 @@ public class kingsAndCreatures {
         dm.addNPC("Grog");
         dm.addNPC("Blagnorz");
         dm.addNPC("Grog Junior");
-        Player player1 = new Player();
-        Player player2 = new Player("player2");
-        Player player3 = new Player("player3");
+        player player1 = new player();
+        player player2 = new player("player2");
+        player player3 = new player("player3");
         dm.activeSession.addPlayer(player1);
         dm.activeSession.addPlayer(player2);
         dm.activeSession.addPlayer(player3);
@@ -39,7 +34,7 @@ public class kingsAndCreatures {
 
 
 //    frameController mainFrame = new frameController("I am a changed String");
-    characterCreation mainFrame2 = new characterCreation(charIterator);
+        characterCreation mainFrame2 = new characterCreation(charIterator);
 
 
 

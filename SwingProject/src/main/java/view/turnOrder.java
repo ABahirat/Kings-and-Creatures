@@ -2,11 +2,12 @@ package view;
 import javax.swing.*;
 
 import controller.databaseProxy;
-import model.character.*;
+import model.character;
+import model.characterArrayIterator;
+import model.dungeonMaster;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -147,7 +148,7 @@ public class turnOrder extends JPanel {
     }
 
     public void doEndTurnButton(JLabel activeCharLabel){
-        //this.attackResult.setText("");
+
         this.charIterator.next();
         this.activeChar = this.charIterator.getCurrent();
         this.setActiveCharText(activeCharLabel);
@@ -157,38 +158,5 @@ public class turnOrder extends JPanel {
     public void setActiveCharText(JLabel activeCharLabel){
         activeCharLabel.setText(this.activeChar.getName() + "'s Turn");
     }
-/*
-    public JButton addButton(String buttonText, JPanel panel){
-        JButton showDialogButton = new JButton(buttonText);
-
-        // add the listener to the jbutton to handle the "pressed" event
-        showDialogButton.addActionListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-
-            }
-
-        });
-        panel.add(showDialogButton);
-        return showDialogButton;
-
-    }
-
-    public JLabel addLabel(String text, JPanel panel){
-        JLabel myLabel = new JLabel();
-        myLabel.setText(text);
-        panel.add(myLabel);
-        return myLabel;
-
-    }
-
-    public JPanel addPanel(){
-        JPanel panel = new JPanel();
-
-        this.mainFrame.add(panel);
-        panel.setVisible(true);
-        return panel;
-    } */
 
 }

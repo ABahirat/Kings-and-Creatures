@@ -1,4 +1,4 @@
-package model.character;
+package model;
 
 /**
  * Created by vindi on 4/27/2017.

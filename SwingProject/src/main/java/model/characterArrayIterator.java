@@ -1,4 +1,4 @@
-package model.character;
+package model;
 import java.util.ArrayList;
 import java.util.*;
 /**
@@ -15,7 +15,7 @@ public class characterArrayIterator implements iteratorDP {
     }
 
     @Override
-    public iteratorDP createIterator(){
+    public characterArrayIterator createIterator(){
         return new characterArrayIterator();
     }
 
@@ -50,9 +50,9 @@ public class characterArrayIterator implements iteratorDP {
         }
     }
 
-    public void addAllPlayerChars(ArrayList<Player> PlayerList){
-        for (int i = 0; i < PlayerList.size(); i++){
-            this.characterList.add(PlayerList.get(i).getCharacter());
+    public void addAllPlayerChars(ArrayList<player> playerList){
+        for (int i = 0; i < playerList.size(); i++){
+            this.characterList.add(playerList.get(i).getCharacter());
         }
     }
 

@@ -2,11 +2,11 @@ package view;
 import javax.swing.*;
 
 import controller.databaseProxy;
-import model.character.*;
+import model.character;
+import model.item;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -14,17 +14,17 @@ import java.awt.event.*;
  * Created by vindi on 4/29/2017.
  *
  */
-public class tradeDialogue extends JPanel{
+public class tradeDialogue extends JFrame{
 
 
     private character charA;
     private character charB;
-    private Item[] charAItems;
-    private Item[] charBItems;
-    private Item itemA;
-    private Item itemB;
-    private JComboBox<Item> tradeCharABox;
-    private JComboBox<Item> tradeCharBBox;
+    private item[] charAItems;
+    private item[] charBItems;
+    private item itemA;
+    private item itemB;
+    private JComboBox<item> tradeCharABox;
+    private JComboBox<item> tradeCharBBox;
 
 
     public tradeDialogue(character charA, character charB){
@@ -32,16 +32,12 @@ public class tradeDialogue extends JPanel{
         super();
         JPanel mainPanel = new JPanel(new BorderLayout());
         //add charIterator
+        this.setSize(512, 512);
         this.charA = charA;
         this.charAItems = this.charA.getItemArray();
         this.charB = charB;
         this.charBItems = this.charB.getItemArray();
 
-
-
-
-
-        //get activechar info
 
         JLabel tradeLabel = new JLabel();
         tradeLabel.setText("Trade Items: ");
@@ -96,7 +92,7 @@ public class tradeDialogue extends JPanel{
         tradeCharABox.setRenderer(new itemListCellRenderer());
         tradeCharABox.addActionListener( new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                tradeDialogue.this.itemA = ((Item) tradeDialogue.this.tradeCharABox.getSelectedItem());
+                tradeDialogue.this.itemA = ((item) tradeDialogue.this.tradeCharABox.getSelectedItem());
 
 
             }
@@ -116,7 +112,7 @@ public class tradeDialogue extends JPanel{
         tradeCharBBox.setRenderer(new itemListCellRenderer());
         tradeCharBBox.addActionListener( new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                tradeDialogue.this.itemB = ((Item) tradeDialogue.this.tradeCharBBox.getSelectedItem());
+                tradeDialogue.this.itemB = ((item) tradeDialogue.this.tradeCharBBox.getSelectedItem());
 
 
             }

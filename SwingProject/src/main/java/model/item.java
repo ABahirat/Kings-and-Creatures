@@ -1,14 +1,14 @@
-package model.character;
+package model;
 
 /**
  * Created by Ameya on 4/24/17.
  */
-public class Item{
+public class item {
     String Name;
     int Health;
     int Value;
 
-    public Item(String name){
+    public item(String name){
         this.Name = name;
         this.Health = 10;
         this.Value = 10;

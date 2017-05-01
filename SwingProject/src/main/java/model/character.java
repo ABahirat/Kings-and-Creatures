@@ -1,9 +1,8 @@
 
-package model.character;
+package model;
 
 
 
-import java.io.*;
 import java.util.*;
 
 /**
@@ -12,11 +11,11 @@ import java.util.*;
 public class character{
     String name;
     String charClass;
-    int Str = 10;
+    int str = 10;
     int dex = 10;
     int intelligence = 10;
     //itemList items[];
-    public ArrayList<Item> itemList;
+    public ArrayList<item> itemList;
     //spellList spells[];
     int armor = 10;
     int mr = 10;
@@ -25,13 +24,12 @@ public class character{
     int gold = 10;
     int speed = 10;
     String notes = "";
-    user owner;
 
     public character() {
         this.name = "Jim the Dubious";
         this.charClass = "Rogue";
-        ArrayList<Item> myList = new ArrayList<Item>();
-        this.itemList = new ArrayList<Item>();
+        ArrayList<item> myList = new ArrayList<item>();
+        this.itemList = new ArrayList<item>();
         this.addItem("Jim's Rope");
         this.addItem("Jim's Shoes");
     }
@@ -39,14 +37,14 @@ public class character{
     public character(String name, String charClass){
         this.name = name;
         this.charClass = charClass;
-        ArrayList<Item> myList = new ArrayList<Item>();
-        this.itemList = new ArrayList<Item>();
+        ArrayList<item> myList = new ArrayList<item>();
+        this.itemList = new ArrayList<item>();
         this.addItem(name + "'s Rope");
         this.addItem(name + "'s Shoes");
     }
 
     public void addItem(String name){
-        this.itemList.add(new Item(name));
+        this.itemList.add(new item(name));
     }
 
     public String getName() {
@@ -65,12 +63,12 @@ public class character{
         this.charClass = charClass;
     }
 
-    public int getStr() {
-        return Str;
+    public int getstr() {
+        return str;
     }
 
-    public void setStr(int str) {
-        Str = str;
+    public void setstr(int str) {
+        str = str;
     }
 
     public int getDex() {
@@ -138,7 +136,7 @@ public class character{
     }
 
     public String Attack(character target) {
-        int attack_roll = (int) Math.ceil(Math.random() * 20) + getStr();
+        int attack_roll = (int) Math.ceil(Math.random() * 20) + getstr();
         int ac = target.getArmor() + target.getDex();
         System.out.println("Roll: " + attack_roll);
         System.out.println("AC: " + ac);
@@ -167,7 +165,7 @@ public class character{
         setHealth(getHealth()-damage);
     }
 
-    public void Trade(Item item, Item item1, character character){
+    public void Trade(item item, item item1, character character){
         //Access item Array list of character, and self, swap items
         removeItem(item, this.itemList);
         storeItem(item1, this.itemList);
@@ -181,22 +179,22 @@ public class character{
 
     }
 
-    public void removeItem(Item item, ArrayList<Item> itemList){
+    public void removeItem(item item, ArrayList<item> itemList){
         itemList.remove(item);
     }
 
-    public void storeItem(Item item, ArrayList<Item> itemList){
+    public void storeItem(item item, ArrayList<item> itemList){
         itemList.add(item);
     }
 
     public void displayItems(character character){
-        for(Item item : character.itemList){
+        for(model.item item : character.itemList){
             System.out.println(item.Name); //Needs to be changed to print to text box
         }
     }
 
-    public Item [] getItemArray(){
-        Item [] itemArr = this.itemList.toArray(new Item[this.itemList.size()]);
+    public item[] getItemArray(){
+        item[] itemArr = this.itemList.toArray(new item[this.itemList.size()]);
         return itemArr;
     }
 

@@ -1,7 +1,8 @@
 package view;
 import javax.swing.*;
 import java.awt.Component;
-import model.character.*;
+
+import model.character;
 
 /**
  * Created by vindi on 4/29/2017.
