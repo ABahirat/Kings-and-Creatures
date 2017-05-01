@@ -35,9 +35,10 @@ public class frameController extends JFrame {
         this.mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.mainFrame.setSize(512, 512);
         character joe = new character("Joe", "Knight");
+        character moe = new character("Moe", "Chef");
         this.turnOrderPanel = new turnOrder(dm);
-//        tradeDialogue tradeDialogue = new tradeDialogue(joe, joe);
-//        this.mainFrame.add(tradeDialogue);
+        tradeDialogue tradeDialogue = new tradeDialogue(joe, moe);
+       // this.mainFrame.add(tradeDialogue);
         this.mainFrame.add(turnOrderPanel);
         //this.name = joe.getName();
         //this.mainPanel = this.addPanel(this.mainFrame);

@@ -15,7 +15,7 @@ public class Player extends user{
 
     public Player(String name){
         this.name = name;
-        this.Character = new character("Jim the Dubious", "Rogue");
+        this.Character = new character(name +" the Dubious", "Rogue");
     }
 
 

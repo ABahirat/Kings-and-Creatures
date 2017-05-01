@@ -32,6 +32,8 @@ public class character{
         this.charClass = "Rogue";
         ArrayList<Item> myList = new ArrayList<Item>();
         this.itemList = new ArrayList<Item>();
+        this.addItem("Jim's Rope");
+        this.addItem("Jim's Shoes");
     }
 
     public character(String name, String charClass){
@@ -39,6 +41,12 @@ public class character{
         this.charClass = charClass;
         ArrayList<Item> myList = new ArrayList<Item>();
         this.itemList = new ArrayList<Item>();
+        this.addItem(name + "'s Rope");
+        this.addItem(name + "'s Shoes");
+    }
+
+    public void addItem(String name){
+        this.itemList.add(new Item(name));
     }
 
     public String getName() {
@@ -168,6 +176,8 @@ public class character{
             removeItem(item1, character.itemList);
             storeItem(item, character.itemList);
         }
+
+        System.out.println("Traded " +item1.getName()+ " for "+ item.getName());
 
     }
 

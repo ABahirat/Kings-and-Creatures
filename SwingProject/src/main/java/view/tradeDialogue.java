@@ -59,31 +59,35 @@ public class tradeDialogue extends JPanel{
             public void actionPerformed(ActionEvent e)
             {
                 tradeDialogue.this.charA.Trade(tradeDialogue.this.itemA, tradeDialogue.this.itemB, tradeDialogue.this.charB);
+                tradeDialogue.this.charBItems = tradeDialogue.this.charB.getItemArray();
+                tradeDialogue.this.charAItems = tradeDialogue.this.charA.getItemArray();
+                //tradeDialogue.this.tradeCharABox = new JComboBox(tradeDialogue.this.charAItems);
+                //tradeDialogue.this.tradeCharBBox = new JComboBox(tradeDialogue.this.charBItems);
             }
 
         });
 
-        JButton cancelTradeButton = new JButton("Cancel Trade");
+      //  JButton cancelTradeButton = new JButton("Cancel Trade");
         // add the listener to the jbutton to handle the "pressed" event
-        confirmTradeButton.addActionListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                tradeDialogue.this.charA.Trade(tradeDialogue.this.itemA, tradeDialogue.this.itemB, tradeDialogue.this.charB);
+        //confirmTradeButton.addActionListener(new ActionListener()
+       // {
+         //   public void actionPerformed(ActionEvent e)
+           // {
+         //       tradeDialogue.this.charA.Trade(tradeDialogue.this.itemA, tradeDialogue.this.itemB, tradeDialogue.this.charB);
 
-            }
+        //    }
 
-        });
+       // });
 
         southPanel.add(confirmTradeButton);
-        southPanel.add(cancelTradeButton);
+        //southPanel.add(cancelTradeButton);
 
         JButton saveButton = this.SaveButton("Save", southPanel);
         mainPanel.add(southPanel, BorderLayout.SOUTH);
 
         //Your Items
 
-
+        DefaultComboBoxModel charAModel = new DefaultComboBoxModel(this.charAItems);
         JPanel charATrade = new JPanel(new BorderLayout());
         JLabel charATradeLabel = new JLabel();
         charATradeLabel.setText(charA.getName()+ "'s Items: ");
@@ -103,7 +107,7 @@ public class tradeDialogue extends JPanel{
         mainPanel.add(charATrade, BorderLayout.WEST);
 
         //Their Items
-
+        DefaultComboBoxModel charBModel = new DefaultComboBoxModel(this.charBItems);
         JPanel charBTrade = new JPanel(new BorderLayout());
         JLabel charBTradeLabel = new JLabel();
         charBTradeLabel.setText(charB.getName()+ "'s Items: ");
