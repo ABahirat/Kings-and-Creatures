@@ -30,6 +30,7 @@ public class characterArrayIterator implements iteratorDP {
             currentIndex = 0;
             System.out.println("New Round!");
             Collections.shuffle(this.characterList);
+            System.out.println(this.characterList.get(currentIndex).getName());
             return this.characterList.get(currentIndex);
         }
     }
