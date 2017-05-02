@@ -73,6 +73,8 @@ public class characterCreation extends JFrame {
 
     }
 
+
+    /**** source: http://stackoverflow.com/questions/8248152/jframe-removing-jpanels-and-adding-a-new-jpanel *****/
     public void doNextButtonstuff(JPanel panel){
         getContentPane().removeAll();
         getContentPane().add(panel, BorderLayout.CENTER);
